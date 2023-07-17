@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@900&family=Montserrat:wght@600&display=swap");
+
+body {
+  font-size: 14px;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.img-side,
+.content-side {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.img-side img {
+  display: flex;
+  width: 289px;
+  height: 400px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.content-side {
+  width: 230px;
+  height: 400px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid white;
+  background-color: #fff;
+}
+
+.name {
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 10px;
+  padding-top: 15px;
+  color: rgb(228, 211, 181);
+}
+
+.brand-name {
+  font-family: "Fraunces", serif;
+}
+
+.paragraph {
+  font-family: "Montserrat", sans-serif;
+}
+
+.Add-to-cart {
+  width: 230px;
+  height: 50px;
+  font-size: 17px;
+  border-radius: 10px;
+  background-color: #617143;
+  color: white;
+  font-family: "Fraunces", serif;
+  font-weight: bolder;
+}
+
+.original-price {
+  display: flex;
+  align-items: baseline;
+  color: #617143;
+}
+
+.main-price {
+  font-size: 24px;
+  font-family: "Fraunces", serif;
+  font-weight: bolder;
+}
+
+.small-price {
+  font-size: 13px;
+  vertical-align: super;
+  padding-left: 15px;
+  text-decoration: line-through;
+  color: #617143;
+}
+
+.Add-to-cart:hover {
+  cursor: pointer;
+}
